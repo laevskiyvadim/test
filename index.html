@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logs__window">
+        <h4 class="logs__title">Logs</h4>
+        <div class="logs__tabs tabs">
+            <div class="tabs__item active">
+                <div class="tabs__item-text">Team notes</div>
+                <div class="tabs__item-count">7</div>
+                </div>
+            <div class="tabs__item">
+                <div class="tabs__item-text">Model</div>
+                <div class="tabs__item-count">2</div>
+            </div>
+            <div class="tabs__item">
+                <div class="tabs__item-text">Candidate updates</div>
+                <div class="tabs__item-count">9</div>
+            </div>
+        </div>
+        <div class="logs__messages">
+            <div class="message">
+                <div class="message__timeline">
+                    <div class="icon">
+                        <img src="/assets/notebook.svg" >
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="message__body">
+                    <div class="title">General note</div>
+                    <div class="info">
+                        <div class="from">by Rebecca</div>
+                        <div class="toch"><span></span></div>
+                        <div class="date">Dec 11 , 05:00 PM</div>
+                    </div>
+                    <div class="text">Candidate considered to be underqualified for leadership position at MongoDB.</div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message__timeline">
+                    <div class="icon">
+                        <img src="/assets/none.svg" >
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="message__body">
+                    <div class="title">Candidate rejected FitGrid</div>
+                    <div class="info">
+                        <div class="date">Dec 11 , 05:00 PM</div>
+                    </div>
+                    <div class="text">Not remote.</div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message__timeline">
+                    <div class="icon">
+                        <img class="big" src="/assets/star.svg" >
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="message__body">
+                    <div class="title">Sourcegraph rejected the candidate for Not enough SaaS experience</div>
+                    <div class="info">
+                        <div class="date">Dec 10 , 05:00 PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message__timeline">
+                    <div class="icon">
+                        <img class="big" src="/assets/spiner.svg" >
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="message__body">
+                    <div class="title">Hopin rejected candidate for wrong geography</div>
+                    <div class="info">
+                        <div class="date">Dec 11 , 05:00 PM</div>
+                    </div>
+                    <div class="text">a</div>
+                </div>
+            </div>
+        </div>
+        <div class="textarea">
+            <textarea placeholder="Add a note to team notes"></textarea>
+        </div>
+        <div class="actions">
+            <div class="actions__items">
+                <div class="item"><img src="/assets/notebook.svg" alt=""></div>
+                <div class="item"><img src="/assets/phone.svg" alt=""></div>
+                <div class="item"><img src="/assets/ghost.svg" alt=""></div>
+                <div class="item"><img src="/assets/exit.svg" alt=""></div>
+            </div>
+            <div class="horizontal-line"></div>
+            <div class="select">
+            <select name="" id="">
+                    <option value="all">All categories</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+            </select>
+        </div>
+        </div>
+        <button class="button">Add log</button>
+    </div>
+</body>
+</html>
